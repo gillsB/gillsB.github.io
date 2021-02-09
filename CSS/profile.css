@@ -1,0 +1,42 @@
+body{
+    margin:2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align:left;
+	font-size:14px;
+	font-family:arial,helvetica, sens-serif;
+    color:#ffffff;
+    background-color:#212b37;
+}
+
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+a:link {
+    color:#79b2ba;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(229, 135, 238);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.column {
+  float: left;
+  width: 45.9%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
