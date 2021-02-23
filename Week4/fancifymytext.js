@@ -21,7 +21,7 @@ function Moo() {
   textBox.style.textTransform = "uppercase";
 
   var str = textBox.value;
-  var parts = str.split("."); // ["How", "are", "you?"]
-  str = parts.join("-Moo."); // "How_are_you?"
+  var parts = str.split(".");
+  str = parts.join("-Moo.");
   textBox.value = str;
 }
